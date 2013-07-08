@@ -173,7 +173,9 @@ public class JnaNativeInterface implements INativeInterface {
 
 	protected Pointer createMemory(int size) {
 		try {
-			return pointerFactory.newInstance(size);
+			Pointer p = pointerFactory.newInstance(size);
+			p.clear(size);
+			return p;
 		} catch (Exception e) {
 			throw new InternalError("can not create Pointer");
 		}
