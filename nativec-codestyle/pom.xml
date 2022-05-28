@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.intarsys.opensource.nativec.codestyle</groupId>
+  <artifactId>nativec-codestyle</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <organization>
+    <name>Intarsys Consulting GmbH</name>
+    <url>https://www.intarsys.de</url>
+  </organization>
+
+  <inceptionYear>2013</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>Intarsys License</name>
+      <url>https://www.intarsys.de/licenses/intarsysSourceLicense.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+</project>
