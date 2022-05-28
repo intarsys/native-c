@@ -144,7 +144,7 @@ public class JnaNativeHandle implements INativeHandle {
 
   @Override
   public String getWideString(int index) {
-    return getPointer().getString(index, true);
+    return getPointer().getWideString(index);
   }
 
   @Override
@@ -205,6 +205,6 @@ public class JnaNativeHandle implements INativeHandle {
 
   @Override
   public void setWideString(int index, String value) {
-    getPointer().setString(index, value, true);
+    getPointer().setWideString(index, value);
   }
 }

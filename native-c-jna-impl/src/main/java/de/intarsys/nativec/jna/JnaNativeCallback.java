@@ -107,11 +107,9 @@ abstract public class JnaNativeCallback implements INativeCallback,
   }
 
   public Class<?>[] getParameterTypes() {
-    Class<?>[] genericParameterTypes;
-    Class<?>[] nativeParameterTypes;
 
-    genericParameterTypes = callback.getParameterTypes();
-    nativeParameterTypes = new Class<?>[genericParameterTypes.length];
+    Class<?>[] genericParameterTypes = callback.getParameterTypes();
+    Class<?>[] nativeParameterTypes = new Class<?>[genericParameterTypes.length];
 
     for (int index = 0; index < genericParameterTypes.length; index++) {
       nativeParameterTypes[index] = translateType(genericParameterTypes[index]);
