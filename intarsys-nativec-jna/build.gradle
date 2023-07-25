@@ -1,0 +1,11 @@
+plugins {
+	id 'java-library'
+	id 'eclipse-wtp'
+}
+
+compileJava.options.release = 11
+
+dependencies {
+	implementation project(':intarsys-nativec-generic')
+	implementation libs.jna
+}

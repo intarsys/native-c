@@ -1,0 +1,6 @@
+rootProject.name = 'is-lib-nativec'
+
+include 'intarsys-nativec-generic'
+include 'intarsys-nativec-jna'
+
+apply from: 'dependencies.gradle'
